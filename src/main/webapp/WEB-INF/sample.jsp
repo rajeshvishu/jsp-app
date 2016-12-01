@@ -10,15 +10,18 @@
 
 <%   
 String name=request.getParameter("uname");  
-out.print("welcome "+name);  
+out.print("welcome "+ name);  
 %> 
 
-<form action="sample.jsp">  
+
+
+<form action="${pageContext.servletContext.contextPath}/sample/">  
+
 <input type="text" name="uname">  
 <input type="submit" value="go"><br/>  
 </form>  
 
 
-zxvc
+${name}
 </body>
 </html>
