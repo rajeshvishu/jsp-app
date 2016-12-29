@@ -8,7 +8,7 @@
 <body>
 
 <h2>Student Information</h2>
-<form:form method="POST" commandName="addStudent" action="${pageContext.servletContext.contextPath}/addStudent">
+<form:form method="POST" commandName="login" action="${pageContext.servletContext.contextPath}/addStudent">
    <table>
     <tr>
         <td><form:label path="name">Name</form:label></td>
